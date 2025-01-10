@@ -135,7 +135,7 @@ if __name__ == "__main__":
                   out_layer_activation=None) # Generator
    
     # load pre-trained models
-    load_dir = '../pre-trained'
+    load_dir = 'pre-trained'
     net_D.load_state_dict(torch.load(load_dir + "/Decoder_CN.pt"))
     net_D.to(device)
 
