@@ -2,7 +2,11 @@
 
 ![molecular_representation](https://github.com/user-attachments/assets/e4ec47b4-7f81-435c-bc02-86fe740244a0)
 ![methodology_new](https://github.com/user-attachments/assets/2df6e7f6-18e2-44ce-8179-9e5b8a07ae6c)
-
+Schematic overview of the proposed fuel design methodology. The
+end-to-end fuel design methodology consists of: a Different ways of representing a
+molecule in cheminformatics, and b a robust predictive model with quantified uncertainty
+(Forward Prediction) and a formal framework to develop new fuel mixtures
+(Inverse design).
 
 # Abstract
 
