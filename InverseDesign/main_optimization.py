@@ -104,10 +104,10 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # read fuel data [Name, SMILES, CN, METHOD]
-    data    = pd.read_excel('../../../data/fuel_pallete.xlsx').to_numpy() 
-    fuel_list = np.hstack((data[:14,0], data[24:,0])) 
-    SMILES = data[:14,1].tolist() + data[24:,1].tolist() 
-    classes = data[:14,-1].tolist() + data[24:,-1].tolist() 
+    data    = pd.read_excel('/data/fuel_palette.xlsx').to_numpy() 
+    fuel_list = data[:14,0] 
+    SMILES = data[:14,1].tolist() 
+    classes = data[:14,-1].tolist() 
 
     #%% Mol2Vec Fingerprinters
     '''
@@ -151,7 +151,7 @@ if __name__ == "__main__":
      meeting China VI emission standard. Sci Rep 11, 9514 (2021). https://doi.org/10.1038/s41598-021-89057-y
      '''
     target_fuel = 56.5
-    fuel = 'Diesel_FAMEs'
+    fuel = 'Diesel'
     alpha = 1.0 
     K = 1000
     
