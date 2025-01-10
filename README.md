@@ -3,7 +3,7 @@
 
 # Abstract
 
-To achieve net zero CO$_2$ emissions by 2050–2060, decarbonising the hard-to-abate
+To achieve net zero CO_2 emissions by 2050–2060, decarbonising the hard-to-abate
 sectors such as long-distance,heavy-duty transport is a top priority worldwide.
 These sectors are particularly challenging to decarbonise due to the use of high
 energy-density liquid fossil fuels. In this context, designing low-carbon alternative
